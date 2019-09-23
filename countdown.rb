@@ -18,5 +18,7 @@ def countdown_with_sleep
 end
   puts "HAPPY NEW YEAR"
 end 
+ runtime = Benchmark.measure {countdown_with_sleep(5)}
 countdown_with_sleep
+
 
