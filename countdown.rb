@@ -8,7 +8,6 @@ end
   puts "HAPPY NEW YEAR"
 end 
 countdown
-end
 
 def countdown_with_sleep
   number = 10 
@@ -20,4 +19,4 @@ end
   puts "HAPPY NEW YEAR"
 end 
 countdown_with_sleep
-end
+
